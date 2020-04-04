@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hrant_prod">
+
+    <ImageButton
+        android:id="@+id/sound_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/sound_on"
+        android:backgroundTint="#fdb94c"
+        android:backgroundTintMode="src_in"
+        android:contentDescription="@string/sound_on_off"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+        android:id="@+id/play_btn"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#02A2B0"
+        android:backgroundTintMode="src_over"
+        android:text="@string/play"
+        android:textColor="#fdb94c"
+        android:textSize="36sp"
+        android:visibility="gone"
+        android:layout_marginLeft="340dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="320dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:textAlignment="center"
+            android:textColor="#fdb94c"
+            android:hint="@string/please_type_your_name"
+            android:textColorHint="#fdb94c"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="90dp" />
+
+        <Button
+            android:id="@+id/accept_name_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:backgroundTint="#23a1de"
+            android:backgroundTintMode="src_over"
+            android:text="@string/accept"
+            android:textColor="#fdb94c"
+            android:textSize="12sp"
+            android:layout_marginLeft="40dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

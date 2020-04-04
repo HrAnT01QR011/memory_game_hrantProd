@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Memory</string>
+    <string name="play">Play</string>
+    <string name="welcome_image">Welcome Image</string>
+    <string name="sound_on_off">Sound on/off</string>
+    <string name="your_name">Your Name</string>
+    <string name="accept">Accept</string>
+    <string name="please_type_your_name">Please type your name</string>
+</resources>
